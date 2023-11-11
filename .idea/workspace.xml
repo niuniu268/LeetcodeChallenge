@@ -13,12 +13,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -29,7 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -47,10 +50,10 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30114943",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.lite"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build Leetcode/BisectionMethod">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build Leetcode/Array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,6 +72,15 @@
       <filePath value="$PROJECT_DIR$/BisectionMethod/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="Leetcode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/RemoveElement/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,9 +92,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build Leetcode/BisectionMethod" />
-        <item itemvalue="Go Build.go build Leetcode/Array" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build Leetcode/Array" />
       </list>
     </recent_temporary>
   </component>

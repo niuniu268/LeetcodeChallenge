@@ -16,6 +16,7 @@ func main() {
 func Bisection(nums []int, target int) int {
 
 	high := len(nums) - 1
+
 	low := 0
 
 	for low <= high {
