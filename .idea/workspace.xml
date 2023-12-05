@@ -30,46 +30,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/Mac",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30114943",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.lite"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Mac&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30114943&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build Leetcode/Array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/RemoveElement/Methods" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build Leetcode/List/RemoveElements">
+    <configuration name="go build Leetcode/Array/BisectionMethod" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/Array" />
+      <package value="Leetcode/Array/BisectionMethod" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/main.go" />
+      <filePath value="$PROJECT_DIR$/Array/BisectionMethod/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode/BisectionMethod" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode/Array/SortedSquares" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/BisectionMethod" />
+      <package value="Leetcode/Array/SortedSquares" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/BisectionMethod/main.go" />
+      <filePath value="$PROJECT_DIR$/Array/SortedSquares/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Leetcode/Array/SpiralMaxtrix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Leetcode/Array/SpiralMaxtrix" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Array/SpiralMaxtrix/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Leetcode/List/RemoveElements" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Leetcode/List/RemoveElements" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/List/RemoveElements/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -78,24 +102,16 @@
       <kind value="FILE" />
       <package value="Leetcode" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/RemoveElement/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="Leetcode" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/main.go" />
+      <filePath value="$PROJECT_DIR$/Array/SpiralMaxtrix/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Leetcode/List/RemoveElements" />
+        <item itemvalue="Go Build.go build Leetcode/Array/SpiralMaxtrix" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build Leetcode/BisectionMethod" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build Leetcode/Array" />
+        <item itemvalue="Go Build.go build Leetcode/Array/SortedSquares" />
+        <item itemvalue="Go Build.go build Leetcode/Array/BisectionMethod" />
       </list>
     </recent_temporary>
   </component>

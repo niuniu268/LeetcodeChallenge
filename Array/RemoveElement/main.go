@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Leetcode/RemoveElement/Methods"
+	Methods2 "Leetcode/Array/RemoveElement/Methods"
 	"fmt"
 )
 
@@ -12,8 +12,8 @@ func main() {
 	}
 	target := 5
 
-	var lens, arr = Methods.MyMethod(nums, target)
-	lens1, arr1 := Methods.TwoPoints(nums, target)
+	var lens, arr = Methods2.MyMethod(nums, target)
+	lens1, arr1 := Methods2.TwoPoints(nums, target)
 
 	fmt.Printf("lens %v, arr %v \n", lens, arr)
 	fmt.Printf("lens %v, arr %v \n ", lens1, arr1)
