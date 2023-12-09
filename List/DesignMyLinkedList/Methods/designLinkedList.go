@@ -22,3 +22,29 @@ func Constructor() MyLinkedList {
 		Size:      0,
 	}
 }
+
+func (this *MyLinkedList) Get(index int) int {
+
+	if this == nil || index < 0 || index >= this.Size {
+		return -1
+	}
+
+	cur := this.dummyHead.Next
+	for i := 0; i < index; i++ {
+		cur = cur.Next
+	}
+
+	return cur.Val
+
+}
+
+func (this *MyLinkedList) AddAtHead(val int) {
+
+	newNode := new(SingleNode)
+	newNode.Val = val
+
+	newNode.Next = this.dummyHead.Next
+	this.dummyHead.Next = newNode
+
+	this.Size++
+}
