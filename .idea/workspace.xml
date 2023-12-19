@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="606e64e2-b288-48d5-903e-3df8abd0830b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/List/ReverseList/Methods/reverseList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/SwapPairs/Methods/swapPairs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/IsAnagram/Methods/isAnagram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/GetIntersectionNode/Methods/intersectionNode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/RemoveNthFromEnd/Methods/removeNthFromEnd.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +130,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-467a64f6063b-ee0e143f3e2b-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.11799.228" />
+        <option value="bundled-gosdk-467a64f6063b-ee0e143f3e2b-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.11799.286" />
       </set>
     </attachedChunks>
   </component>
