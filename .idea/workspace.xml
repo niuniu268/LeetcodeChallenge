@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="606e64e2-b288-48d5-903e-3df8abd0830b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/IsAnagram/Methods/isAnagram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/GetIntersectionNode/Methods/intersectionNode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/RemoveNthFromEnd/Methods/removeNthFromEnd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackNQueue/queueBecomesStack/Methods/myMethods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackNQueue/stackBecomesQueue/Methods/StackBecomesQueue.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build Leetcode/HashTable/CanConstruct.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/HashTable/Intersection.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/HashTable/IsAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/HashTable/TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/String/repeatedSubstringPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/String/replaceNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/String/reverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/String/reversedWord.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Leetcode/String/rotateString.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
@@ -67,63 +74,65 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/String/reverseString/Methods" />
+      <recent name="$PROJECT_DIR$/HashTable/TwoSum/Methods" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/RemoveElement/Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Leetcode/List/RemoveElements">
-    <configuration name="go build Leetcode/Array/BisectionMethod" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build Leetcode/String/repeatedSubstringPattern">
+    <configuration name="go build Leetcode/String/repeatedSubstringPattern" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/Array/BisectionMethod" />
+      <package value="Leetcode/String/repeatedSubstringPattern" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/BisectionMethod/main.go" />
+      <filePath value="$PROJECT_DIR$/String/repeatedSubstringPattern/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode/Array/SortedSquares" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode/String/replaceNumber" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/Array/SortedSquares" />
+      <package value="Leetcode/String/replaceNumber" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/SortedSquares/main.go" />
+      <filePath value="$PROJECT_DIR$/String/replaceNumber/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode/Array/SpiralMaxtrix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode/String/reverseWords" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/Array/SpiralMaxtrix" />
+      <package value="Leetcode/String/reverseWords" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/SpiralMaxtrix/main.go" />
+      <filePath value="$PROJECT_DIR$/String/reverseWords/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode/List/RemoveElements" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode/String/reversedWord" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="Leetcode/List/RemoveElements" />
+      <package value="Leetcode/String/reversedWord" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/List/RemoveElements/main.go" />
+      <filePath value="$PROJECT_DIR$/String/reversedWord/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode/String/rotateString" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="Leetcode" />
+      <kind value="PACKAGE" />
+      <package value="Leetcode/String/rotateString" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Array/SpiralMaxtrix/main.go" />
+      <filePath value="$PROJECT_DIR$/String/rotateString/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Leetcode/List/RemoveElements" />
-        <item itemvalue="Go Build.go build Leetcode/Array/SpiralMaxtrix" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build Leetcode/Array/SortedSquares" />
-        <item itemvalue="Go Build.go build Leetcode/Array/BisectionMethod" />
+        <item itemvalue="Go Build.go build Leetcode/String/repeatedSubstringPattern" />
+        <item itemvalue="Go Build.go build Leetcode/String/rotateString" />
+        <item itemvalue="Go Build.go build Leetcode/String/reversedWord" />
+        <item itemvalue="Go Build.go build Leetcode/String/replaceNumber" />
+        <item itemvalue="Go Build.go build Leetcode/String/reverseWords" />
       </list>
     </recent_temporary>
   </component>
