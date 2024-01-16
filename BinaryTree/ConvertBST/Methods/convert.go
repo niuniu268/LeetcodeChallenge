@@ -1,7 +1,7 @@
 package Methods
 
 import (
-	`Leetcode/BinaryTree/OrderTraversal/InOrderTraversal/Methods`
+	"Leetcode/BinaryTree/OrderTraversal/InOrderTraversal/Methods"
 )
 
 var pre int
