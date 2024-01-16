@@ -18,6 +18,21 @@
 
 ![img](https://camo.githubusercontent.com/1531017a62378c14e8731434dbd48ad05a8336606ea72927416ee87191e2bd0e/68747470733a2f2f696d672d626c6f672e6373646e696d672e636e2f32303231303231393139323035303636362e706e67)
 ![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20210130173631174.png)
+```
+void backtracking(参数) {
+    if (终止条件) {
+        存放结果;
+        return;
+    }
+
+    for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) {
+        处理节点;
+        backtracking(路径，选择列表); // 递归
+        回溯，撤销处理结果
+    }
+}
+
+```
 ## Greedy Algorithm
 
 ![img](https://camo.githubusercontent.com/a77a640405ca924ee1a18028fef3c05c21c15df33f1d91852a3f9f64d37b7366/68747470733a2f2f636f64652d7468696e6b696e672d313235333835353039332e66696c652e6d7971636c6f75642e636f6d2f706963732f32303231303931373130343331352e706e67)
