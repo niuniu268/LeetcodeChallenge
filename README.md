@@ -1,11 +1,18 @@
-# Leetcode
+# LEETCODE PRACTICES
+
 
 ## Array
+
 ### Bisection
+
 ### Subarray
+
 ### Remove Element
+
 ### Sorted Squares
+
 ### Spiral Matrix
+
 ![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20220922102236.png)
 
 ## List
@@ -41,6 +48,38 @@ void backtracking(参数) {
 
 ![img](https://camo.githubusercontent.com/173c771640343e8fd7c0429d56f7fbd1d02bfef90c0bd1d409df945fe668ff79/68747470733a2f2f636f64652d7468696e6b696e672e63646e2e626365626f732e636f6d2f706963732fe58aa8e68081e8a784e588922de680bbe7bb93e5a4a7e7bab2312e6a7067)
 
+Logical Procedure:
+
+1. 确定dp数组（dp table）以及下标的含义
+2. 确定递推公式
+3. dp数组如何初始化
+4. 确定遍历顺序
+5. 举例推导dp数组
+
+### Backpack problem
+
 ![img](https://camo.githubusercontent.com/a671fd4e891752c2b447ec882cd8bf075e1f603122964fde0797c22cc80da5bf/68747470733a2f2f636f64652d7468696e6b696e672e63646e2e626365626f732e636f6d2f706963732fe58aa8e68081e8a784e588922de8838ce58c85e997aee9a298e680bbe7bb932e706e67)
+
+- 问能否能装满背包（或者最多装多少）：dp[j] = max(dp[j], dp[j - nums[i]] + nums[i]); ，对应题目如下：
+
+- 问装满背包有几种方法：dp[j] += dp[j - nums[i]] ，对应题目如下：
+
+- 问背包装满最大价值：dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); ，对应题目如下：
+
+- 问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j]); ，对应题目如下：
+
+- 01 backpack
+  一维dp数组的背包在遍历顺序上和二维dp数组实现的01背包其实是有很大差异的，大家需要注意！
+
+- complete backpack
+  如果求组合数就是外层for循环遍历物品，内层for遍历背包。
+
+  如果求排列数就是外层for遍历背包，内层for循环遍历物品
+
+### Stock problem
+
 ![img](https://camo.githubusercontent.com/006c670b6d92f56c90ef5de18883717ceff43526f28e40c82a77e017b1f30cee/68747470733a2f2f636f64652d7468696e6b696e672e63646e2e626365626f732e636f6d2f706963732fe882a1e7a5a8e997aee9a298e680bbe7bb932e6a7067)
+
+### Subsequence problem
+
 ![img](https://camo.githubusercontent.com/8766139b53670fa351812ce4d6208914c614e5417026e15dff36802f59dbc86e/68747470733a2f2f636f64652d7468696e6b696e672e63646e2e626365626f732e636f6d2f706963732fe58aa8e68081e8a784e588922de5ad90e5ba8fe58897e997aee9a298e680bbe7bb932e6a7067)

@@ -129,18 +129,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Leetcode/String/repeatedSubstringPattern" />
         <item itemvalue="Go Build.go build Leetcode/String/rotateString" />
         <item itemvalue="Go Build.go build Leetcode/String/reversedWord" />
-        <item itemvalue="Go Build.go build Leetcode/String/replaceNumber" />
         <item itemvalue="Go Build.go build Leetcode/String/reverseWords" />
+        <item itemvalue="Go Build.go build Leetcode/String/replaceNumber" />
+        <item itemvalue="Go Build.go build Leetcode/String/repeatedSubstringPattern" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-266795519c66-911b893a1778-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.13135.104" />
+        <option value="bundled-gosdk-e58f7cfedaf7-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.14015.113" />
       </set>
     </attachedChunks>
   </component>
