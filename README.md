@@ -83,3 +83,45 @@ Logical Procedure:
 ### Subsequence problem
 
 ![img](https://camo.githubusercontent.com/8766139b53670fa351812ce4d6208914c614e5417026e15dff36802f59dbc86e/68747470733a2f2f636f64652d7468696e6b696e672e63646e2e626365626f732e636f6d2f706963732fe58aa8e68081e8a784e588922de5ad90e5ba8fe58897e997aee9a298e680bbe7bb932e6a7067)
+
+### DFS
+
+```
+void dfs(参数) {
+    处理节点
+    dfs(图，选择的节点); // 递归
+    回溯，撤销处理结果
+}
+```
+BackTracking: 
+
+```
+void backtracking(参数) {
+    if (终止条件) {
+        存放结果;
+        return;
+    }
+    for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) {
+        处理节点;
+        backtracking(路径，选择列表); // 递归
+        回溯，撤销处理结果
+    }
+}
+
+```
+Framework:
+
+```
+void dfs(参数) {
+if (终止条件) {
+存放结果;
+return;
+}
+
+    for (选择：本节点所连接的其他节点) {
+        处理节点;
+        dfs(图，选择的节点); // 递归
+        回溯，撤销处理结果
+    }
+}
+```
